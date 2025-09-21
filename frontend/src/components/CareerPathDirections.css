@@ -1,0 +1,71 @@
+/* Center the entire content block */
+.career-path-container {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 1.6;
+    color: #333;
+    /* Change the font family for a new look */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Style the title */
+.career-path-container h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* Style the content box */
+.roadmap-content {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Style the preformatted text block and its content */
+.roadmap-content pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Roboto Mono', 'Courier New', monospace; /* A different font for the content */
+    line-height: 1.8;
+    color: #555;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+}
+
+/* Style the bold headings inside the pre tag */
+.roadmap-content pre strong {
+    color: #34495e;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+/* Style the back button */
+.back-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #c0392b;
+}
